@@ -3,6 +3,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel = "stylesheet"   type = "text/css"   href = "css/style.css" />
 <script>
   function check(myform){
  if (myform.uname.value == "" || myform.pass.value == null)
@@ -24,13 +25,13 @@
 <body>
 
 <center> <h2>USER REGISTRATION PAGE</h2></center>
-<form name="signupform" action="register" method="post" onSubmit="return check(signupform)">
+<form name="signupform" action="Register" method="post" onSubmit="return check(signupform)">
      <div class=login align=center>
        User Login Id: <input type="text" name="uLogId" placeholder="User Login Id" required><br><br>
        User Email Id: <input type="email" name="uemail" placeholder="User Email Id" required><br><br>
        User Location: <input type="text" name="uLoc" placeholder="User Location" required><br><br>
-       User Type: <select> <option>RE</option><option>PM</option><option>AE</option> </select><!--  <input type="text" name="uType" value="RE" placeholder="Enter User Type" required>--><br><br>
-       Enter if User Active: <input type="text" name="uActive" placeholder="Enter if User Active" required><br><br>
+       User Type: <select name="uType"> <option>RE</option><option>PM</option><option>AE</option> </select><!--  <input type="text" name="uType" value="RE" placeholder="Enter User Type" required>--><br><br>
+       Active: <input type="text" name="uActive" placeholder="Enter if User Active" required><br><br>
       <!--   Enter Password: <input type="password" name="pass" placeholder="Enter Password" required> --><br><br>
        <input type="submit" value="REGISTER">
      </div>  

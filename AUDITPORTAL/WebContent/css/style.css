@@ -1,5 +1,10 @@
 @CHARSET "ISO-8859-1";
 
+body {
+    background-image: url("imag/loginback.png");
+    background-color: #cccccc;
+}
+
 button{
 
   padding: 0 6px 0 6px;
@@ -17,4 +22,13 @@ button{
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   
 
+}
+
+.login {
+    background: #eceeee;
+    border: 1px solid #42464b;
+    border-radius: 6px;
+    height: 327px;
+    margin: 20px auto 0;
+    width: 320px;
 }

@@ -37,8 +37,8 @@
 	    <ul class="nav nav-pills nav-stacked" role="tablist">
 	    
 	    <li class="active"><a href="AddUser.html">ADD</a></li>
-	    <li><a href="#">UPDATE</a></li>
-	    <li><a href="#">DELETE</a></li>
+	    <li><a href="UpdateUser.jsp">UPDATE</a></li>
+	    <li><a href="RemoveUser.jsp">DELETE</a></li>
 	    <li><a href="#">LIST</a></li>        
 	  </ul>
 	  </div>
@@ -48,8 +48,8 @@
 	    <ul class="nav nav-pills nav-stacked" role="tablist">
 	   
 	    <li class="active"><a href="AddUser.html">ADD</a></li>
-	    <li><a href="#">UPDATE</a></li>
-	    <li><a href="#">DELETE</a></li>
+	    <li><a href="UpdateUser.jsp">UPDATE</a></li>
+	    <li><a href="RemoveUser.jsp">DELETE</a></li>
 	    <li><a href="#">LIST</a></li>        
 	  </ul>
 	    </p>

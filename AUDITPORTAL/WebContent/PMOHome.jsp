@@ -12,5 +12,17 @@
  <% /*Features:
     	- view all reports : location wise with all filters
    */%>
+   
+   
+     <h3>view reports</h3>
+	
+	
+	<br><br><br><br>
+	
+	 <form action="Navigator" method="post">
+     
+	<input type="submit" name="nav" value="Logout"/>
+	</form>
+	
 </body>
 </html>
